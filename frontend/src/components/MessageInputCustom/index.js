@@ -202,7 +202,7 @@ const SignSwitch = (props) => {
   if (isWidthUp("md", width)) {
     return (
       <FormControlLabel
-        style={{ marginRight: 7, color: "gray" }}
+      style={{ marginRight: 7, color: "gray", display: "none" }}
         label={i18n.t("messagesInput.signMessage")}
         labelPlacement="start"
         control={
